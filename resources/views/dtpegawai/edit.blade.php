@@ -44,7 +44,7 @@
         <small style="color:red">{{ $message }}</small>
         @enderror
         <div class="form-group">
-            <label for="">Tingkatan Pegawai</label>
+            <label for="">Golongan Pegawai</label>
             <input type="text" class="form-control" name="tgkt_pgw" placeholder="tgkt_pgw" value="{{$pegawai->tgkt_pgw}}">
         </div>
         @error('tgkt_pgw')
