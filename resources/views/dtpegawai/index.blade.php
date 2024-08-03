@@ -61,7 +61,7 @@
                 <th>Jabatan</th>
                 <th>Tanggal Masuk</th>
                 <th>NIP</th>
-                <th>Tingkatan</th>
+                <th>Golongan</th>
                 <th>Gambar</th>
                 @if(auth()->user()->level=="tatausaha")
                 <th>Aksi</th>
