@@ -19,8 +19,10 @@ class LogmaterialImport implements ToModel
             'validasi_id' =>$row[2],
             'barang_id' =>$row[3],
             'unit_pakai' =>$row[4],
-            'lokasi_pakai' =>$row[5],
-            'keterangan' =>$row[6],
+            'stn_pakai' =>$row[5],
+            'lokasi_pakai' =>$row[6],
+            'keterangan' =>$row[7],
+            'wkl_pgwlog' =>$row[8]
         ]);
     }
 }

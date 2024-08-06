@@ -35,7 +35,7 @@
         <div class="modal-header">
           <h5 class="modal-title" id="exampleModalLabel">Import Data Material dari Excel</h5>
         </div>
-        <form action="{{ route ('importpengaduan') }}" method="post" enctype="multipart/form-data">
+        <form action="{{ route ('importmaterial') }}" method="post" enctype="multipart/form-data">
         <div class="modal-body">
             @csrf
             <div class="form-group">

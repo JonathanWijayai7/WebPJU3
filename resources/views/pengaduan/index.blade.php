@@ -69,7 +69,7 @@
                 <th>Lokasi</th>
                 <th>Kecamatan</th>
                 <th>Kelurahan</th>
-                <th>Titik Map PJU Bermasalah</th>
+                <th>Maps</th>
                 <th>Deskripsi Perbaikan</th>
                 <th>Foto Kondisi PJU</th>
                 <th>Aksi</th>
@@ -130,7 +130,7 @@
 @section('script')
     <script>
         $(document).ready(function() {
-            $('#pegawai-table').DataTable();
+            $('#pengaduan-table').DataTable();
         });
     </script>
 @endsection

@@ -22,11 +22,10 @@ class MaterialImport implements ToModel
             'stk_terpakai' =>$row[5],
             'stk_sisa' =>$row[6],
             'satuan' =>$row[7],
-            'harga' =>$row[8],
+            'hrg_brg' =>$row[8],
             'ttl_brg' =>$row[9],
             'ket' =>$row[10],
-            'asal' =>$row[11],
-            'ft_brg' =>$row[12],
+            'ft_brg' =>$row[11],
         ]);
     }
 }
