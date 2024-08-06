@@ -15,14 +15,12 @@ class PegawaiImport implements ToModel
     public function model(array $row)
     {
         return new Pegawai([
-            'nama' =>$row[1],
+            'nm_pgw' =>$row[1],
             'jabatan' =>$row[2],
-            'alamat' =>$row[3],
-            'tglhr' =>$row[4],
-            'email' =>$row[5],
-            'telp' =>$row[6],
-            'ftpegawai' =>$row[7],
-            'wkl_pgwlog' =>$row[7],
+            'tgl_mskpgw' =>$row[3],
+            'nip_pgw' =>$row[4],
+            'tgkt_pgw' =>$row[5],
+            'ftpegawai' =>$row[6],
         ]);
     }
 }

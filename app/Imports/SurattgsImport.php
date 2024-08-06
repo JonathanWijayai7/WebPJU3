@@ -27,6 +27,8 @@ class SurattgsImport implements ToModel
             'tujuan3' =>$row[10],
             'tujuan4' =>$row[11],
             'tujuan5' =>$row[12],
+            'tujuan6' =>$row[13],
+            'tujuan7' =>$row[14],
         ]);
     }
 }
